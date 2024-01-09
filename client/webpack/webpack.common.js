@@ -22,12 +22,13 @@ module.exports = {
         },
       },
       {
-        test: /\.scss$/,
+        test: /\.(css|scss)$/,
         use: [
           MiniCssExtractPlugin.loader,
           // "style-loader", // it creates <style> tag in the index.html page
           "css-loader",
           "sass-loader",
+          "postcss-loader",
         ],
       },
       {
