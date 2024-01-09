@@ -1,0 +1,32 @@
+.header-container {
+  .toolbar {
+    min-height: 100%;
+    .logo {
+      width: 29%;
+    }
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .logo-sub-heading {
+        display: flex;
+        align-items: center;
+        line-height: 16px;
+        font-size: 10px;
+        font-style: italic;
+        cursor: pointer;
+        .span {
+          color: #ffe500;
+          margin-left: 2px;
+        }
+        .sub-logo {
+          width: 10px;
+          margin-left: 2px;
+        }
+      }
+      .logo-sub-heading:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

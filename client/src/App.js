@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.scss";
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      React Application
-    </h1>
+    <div className="main-container">
+      <Header />
+    </div>
   );
 };
 

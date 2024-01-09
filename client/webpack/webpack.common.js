@@ -10,7 +10,7 @@ module.exports = {
     publicPath: "/", // Set publicPath to root
   },
   resolve: {
-    extensions: [".js"], //allows to leave out extensions while importing | import {App} from './App' App.tsx
+    extensions: [".js", ".jsx"], //allows to leave out extensions while importing | import {App} from './App' App.tsx
   },
   module: {
     rules: [
@@ -28,7 +28,7 @@ module.exports = {
           // "style-loader", // it creates <style> tag in the index.html page
           "css-loader",
           "sass-loader",
-          "postcss-loader",
+          // "postcss-loader",
         ],
       },
       {
