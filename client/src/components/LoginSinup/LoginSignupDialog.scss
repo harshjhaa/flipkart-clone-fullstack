@@ -29,6 +29,7 @@
       padding: 1.75rem 1.75rem 1rem 1.75rem;
       display: flex;
       flex-direction: column;
+      overflow: auto;
       .email-input-field,
       .mobile-input-field,
       .password-input-field {
