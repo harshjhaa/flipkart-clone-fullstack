@@ -1,27 +1,33 @@
 .header-container {
   .toolbar {
     min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .logo {
-      width: 29%;
+      width: 4.5rem;
+      cursor: pointer;
     }
     .logo-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      font-size: 1rem;
       .logo-sub-heading {
         display: flex;
         align-items: center;
-        line-height: 16px;
-        font-size: 10px;
+        font-size: clamp(10px, 0.6em, 12px);
+        line-height: 1.5em;
         font-style: italic;
         cursor: pointer;
         .span {
           color: #ffe500;
-          margin-left: 2px;
+          margin-left: 0.125rem;
         }
         .sub-logo {
-          width: 10px;
-          margin-left: 2px;
+          width: 0.625rem;
+          margin-left: 0.125rem;
         }
       }
       .logo-sub-heading:hover {

@@ -1,0 +1,23 @@
+@import "../../../styles//var";
+
+.header-custom-buttons-container {
+  display: flex;
+  align-items: center;
+  button,
+  p {
+    margin-left: clamp(1rem, 0.25rem + 2vw, 1.5rem);
+    margin-right: clamp(1rem, 0.25rem + 2vw, 1.5rem);
+    font-size: $header_generic_font_size;
+    cursor: pointer;
+  }
+  .login-button {
+    background-color: $white;
+    border: none;
+    color: $primary_blue;
+    padding: 4px 50px;
+    text-transform: none;
+  }
+  .login-button:hover {
+    background-color: $white;
+  }
+}

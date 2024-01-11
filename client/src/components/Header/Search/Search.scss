@@ -1,0 +1,26 @@
+@import "../../../styles//var";
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  .input-search {
+    input {
+      border-radius: 0.125rem;
+      width: clamp(180px, 5rem + 30vw, 500px);
+      background-color: $white;
+      padding: 6px 0px 6px 8px;
+    }
+    input::placeholder {
+      font-size: $header_generic_font_size;
+    }
+  }
+  .search-icon {
+    position: absolute;
+    right: 0;
+    padding-right: 0.25rem;
+    color: $grey;
+    background-color: $white;
+    cursor: pointer;
+  }
+}

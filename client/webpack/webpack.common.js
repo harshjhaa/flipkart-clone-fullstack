@@ -27,8 +27,15 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           // "style-loader", // it creates <style> tag in the index.html page
           "css-loader",
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                config: path.resolve(__dirname, "..", "postcss.config.js"),
+              },
+            },
+          },
           "sass-loader",
-          // "postcss-loader",
         ],
       },
       {

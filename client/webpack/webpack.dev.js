@@ -13,6 +13,7 @@ module.exports = {
     },
     hot: true,
     open: true,
+    historyApiFallback: true,
   },
   plugins: [
     new ReactRefreshWebpackPlugin(),

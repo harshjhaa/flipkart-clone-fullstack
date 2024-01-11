@@ -1,0 +1,41 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "./styles/_var.scss";
+
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: calc(1rem + 1vw); /*Root font size 8 + 1% of vw*/
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: calc(0.5rem + 0.5vw); /*Root font size 8 + 1% of vw*/
+  }
+}
+
+.body-container {
+  margin-top: 55px;
+  background-color: $body_background_color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

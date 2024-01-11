@@ -1,0 +1,20 @@
+{
+  "signupForm_enter_name": "Enter Name",
+  "signupForm_enter_email": "Enter Email",
+  "signupForm_enter_mobile": "Enter Mobile Number",
+  "signupForm_enter_password": "Enter Password",
+  "login_agreement_1": "By continuing, you agree to Flipkart's",
+  "login_agreement_2": "Terms of Use",
+  "login_agreement_3": "and",
+  "login_agreement_4": "Privacy Policy",
+  "login_heading": "Login",
+  "login_subHeading": "Get access to your Orders, Wishlist and Recommendations",
+  "login_button": "Login",
+  "request_otp_button": "Request OTP",
+  "orText": "OR",
+  "newToFlipkartText": "New to Flipkart? Create an account",
+  "signup_heading": "Looks like you're new here!",
+  "signup_subHeading": "Sign up with your email to get started",
+  "signupBtn": "Signup",
+  "existingUserBtn": "Existing User? Log in"
+}
